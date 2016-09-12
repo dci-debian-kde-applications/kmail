@@ -145,12 +145,12 @@ Breaks: libkdepim4 (<< 4:4.13.90),
         libkf5libkdepim5 (<= 4:16.04),
         libkf5messageviewer5 (<= 4:16.04),
         libmessageviewer4 (<< 4:4.13.90),
-        kdepim-docs
+        kdepim-doc
 Replaces: libkdepim4 (<< 4:4.13.90),
           libkf5libkdepim5 (<= 4:16.04),
           libkf5messageviewer5 (<= 4:16.04),
           libmessageviewer4 (<< 4:4.13.90),
-          kdepim-docs
+          kdepim-doc
 Provides: imap-client, mail-reader
 Homepage: http://kontact.kde.org/kmail/
 Description: full featured graphical email client
