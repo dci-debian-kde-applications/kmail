@@ -131,9 +131,10 @@ Recommends: accountwizard,
             gnupg-agent,
             gnupg2,
             kdepim-addons,
-            kdepim-doc,
             kdepim-themeeditors,
-            ktnef,
+            mbox-importer
+            pim-data-exporter
+            pim-sieve-editor
             pinentry-qt | pinentry-x11
 Suggests: clamav,
           kaddressbook,
@@ -143,11 +144,13 @@ Suggests: clamav,
 Breaks: libkdepim4 (<< 4:4.13.90),
         libkf5libkdepim5 (<= 4:16.04),
         libkf5messageviewer5 (<= 4:16.04),
-        libmessageviewer4 (<< 4:4.13.90)
+        libmessageviewer4 (<< 4:4.13.90),
+        kdepim-docs
 Replaces: libkdepim4 (<< 4:4.13.90),
           libkf5libkdepim5 (<= 4:16.04),
           libkf5messageviewer5 (<= 4:16.04),
-          libmessageviewer4 (<< 4:4.13.90)
+          libmessageviewer4 (<< 4:4.13.90),
+          kdepim-docs
 Provides: imap-client, mail-reader
 Homepage: http://kontact.kde.org/kmail/
 Description: full featured graphical email client
