@@ -69,3 +69,4 @@ usr/share/kxmlgui5/kmail2/kmmainwin.rc
 usr/share/kxmlgui5/kmail2/kmreadermainwin.rc
 usr/share/messageviewer/about/default/introduction_kmail.html
 usr/share/metainfo/org.kde.kmail.appdata.xml
+usr/share/doc/HTML/*/kmail/
