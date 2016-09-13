@@ -159,17 +159,18 @@ Description: full featured graphical email client
  KDE (Plasma Desktop) but is also useable with other Desktop Envionments.
  .
 
-Package: ktnef
-Section: kde
-Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: kmail (<< 4:4.14.3)
-Replaces: kmail (<< 4:4.14.3)
-Description: Viewer for mail attachments using TNEF format
- The TNEF File Viewer allows one to handle easily mail attachments using
- the TNEF format. Those attachments are usually found in mails coming from
- Microsoft mail servers and embed the mail properties as well as the actual
- attachments.
- .
- An attachment in TNEF format is most often named winmail.dat or win.dat.
+# Comment out the below package as that it is not build yet
+#Package: ktnef
+#Section: kde
+#Architecture: any
+#Depends: ${misc:Depends}, ${shlibs:Depends}
+#Breaks: kmail (<< 4:4.14.3)
+#Replaces: kmail (<< 4:4.14.3)
+#Description: Viewer for mail attachments using TNEF format
+# The TNEF File Viewer allows one to handle easily mail attachments using
+# the TNEF format. Those attachments are usually found in mails coming from
+# Microsoft mail servers and embed the mail properties as well as the actual
+# attachments.
+# .
+# An attachment in TNEF format is most often named winmail.dat or win.dat.
  .
