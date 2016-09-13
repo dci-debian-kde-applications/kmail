@@ -132,9 +132,9 @@ Recommends: accountwizard,
             gnupg2,
             kdepim-addons,
             kdepim-themeeditors,
-            mbox-importer
-            pim-data-exporter
-            pim-sieve-editor
+            mbox-importer,
+            pim-data-exporter,
+            pim-sieve-editor,
             pinentry-qt | pinentry-x11
 Suggests: clamav,
           kaddressbook,
