@@ -1,4 +1,5 @@
 etc/xdg/kmail.categories
+etc/xdg/kmail.renamecategories
 usr/bin/akonadi_archivemail_agent
 usr/bin/akonadi_followupreminder_agent
 usr/bin/akonadi_mailfilter_agent
