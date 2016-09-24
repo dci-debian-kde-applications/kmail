@@ -30,12 +30,12 @@ usr/share/kmail2/pics/pgp-keys.png
 usr/share/knotifications5/akonadi_*.notifyrc
 usr/share/knotifications5/kmail2.notifyrc
 usr/share/kontact/ksettingsdialog/
+usr/share/kservices5/ServiceMenus/kmail_addattachmentservicemenu.desktop
+usr/share/kservices5/kcm_kpimidentities.desktop
 usr/share/kservices5/kcmkmailsummary.desktop
 usr/share/kservices5/kcmkontactsummary.desktop
-usr/share/kservices5/kcm_kpimidentities.desktop
 usr/share/kservices5/kmail_*.desktop
 usr/share/kservices5/kontact/
-usr/share/kservices5/ServiceMenus/kmail_addattachmentservicemenu.desktop
 usr/share/kservicetypes5/dbusmail.desktop
 usr/share/kxmlgui5/kmail2/
 usr/share/kxmlgui5/kontactsummary/kontactsummary_part.rc
