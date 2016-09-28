@@ -5,8 +5,7 @@ usr/bin/akonadi_followupreminder_agent
 usr/bin/akonadi_mailfilter_agent
 usr/bin/akonadi_sendlater_agent
 usr/bin/kmail
-usr/lib/*/libkmailprivate.so.5
-usr/lib/*/libkmailprivate.so.5.3.44
+usr/lib/*/libkmailprivate.so.5*
 usr/lib/*/qt5/plugins/kcm_kmail.so
 usr/lib/*/qt5/plugins/kcm_kmailsummary.so
 usr/lib/*/qt5/plugins/kcm_kontactsummary.so
