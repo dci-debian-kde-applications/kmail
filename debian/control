@@ -125,6 +125,14 @@ Depends: kmail, ${misc:Depends}
 Description: transitional package
  This is a transitional package. It can safely be removed.
 
+Package: ktnef
+Section: oldlibs
+Architecture: all
+Priority: extra
+Depends: kmail, ${misc:Depends}
+Description: transitional package
+ This is a transitional package. It can safely be removed.
+
 Package: kmail
 Section: mail
 Architecture: any
@@ -152,18 +160,18 @@ Suggests: clamav,
           spamassassin | bogofilter | spambayes (>= 1.0.4-6) | bsfilter | crm114
 Breaks: kdepim-doc (<< 4:16.12.0),
         kontact (<< 4:16.11),
+        ktnef (<< 4:16.12.0),
         libkdepim4 (<< 4:4.13.90),
         libkf5libkdepim5 (<= 4:16.04),
         libkf5messageviewer5 (<= 4:16.04),
         libmessageviewer4 (<< 4:4.13.90)
 Replaces: kdepim-doc (<< 4:16.12.0),
           kontact (<< 4:16.11),
-          ktnef,
+          ktnef (<< 4:16.12.0),
           libkdepim4 (<< 4:4.13.90),
           libkf5libkdepim5 (<= 4:16.04),
           libkf5messageviewer5 (<= 4:16.04),
           libmessageviewer4 (<< 4:4.13.90)
-Conflicts: ktnef
 Provides: imap-client, mail-reader
 Homepage: http://kontact.kde.org/kmail/
 Description: full featured graphical email client
