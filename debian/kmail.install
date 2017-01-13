@@ -24,7 +24,6 @@ usr/share/dbus-1/interfaces/org.kde.kmail.kmail*.xml
 usr/share/doc/HTML/*/akonadi_archivemail_agent/
 usr/share/doc/HTML/*/akonadi_followupreminder_agent/
 usr/share/doc/HTML/*/akonadi_sendlater_agent/
-usr/share/doc/HTML/*/kmail/
 usr/share/doc/HTML/en/ktnef/index.cache.bz2
 usr/share/doc/HTML/en/ktnef/index.docbook
 usr/share/doc/HTML/en/ktnef/mainwindow.png
