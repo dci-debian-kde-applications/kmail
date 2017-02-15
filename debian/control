@@ -141,6 +141,7 @@ Depends: akonadi-server (>= 4:16.04),
          libkf5akonadisearch-bin,
          libkf5akonadisearch-plugins,
          libkf5grantleetheme-plugins,
+         libqt5webengine5,
          ${misc:Depends},
          ${perl:Depends},
          ${shlibs:Depends}
