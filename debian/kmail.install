@@ -30,9 +30,13 @@ usr/share/doc/HTML/en/ktnef/index.docbook
 usr/share/doc/HTML/en/ktnef/mainwindow.png
 usr/share/doc/HTML/en/ktnef/winmail_dat.png
 usr/share/icons/hicolor/*/apps/kmail.png
+usr/share/icons/hicolor/16x16/emblems/
 usr/share/icons/hicolor/22x22/actions/ktnef_extract_all_to.png
 usr/share/icons/hicolor/22x22/actions/ktnef_extract_to.png
+usr/share/icons/hicolor/22x22/emblems/
 usr/share/icons/hicolor/48x48/apps/ktnef.png
+usr/share/icons/hicolor/8x8/emblems/
+usr/share/icons/hicolor/scalable/apps/
 usr/share/icons/locolor/16x16/actions/ktnef_extract_all_to.png
 usr/share/icons/locolor/16x16/actions/ktnef_extract_to.png
 usr/share/icons/locolor/16x16/apps/ktnef.png
