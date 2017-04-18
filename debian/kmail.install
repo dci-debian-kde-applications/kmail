@@ -17,7 +17,7 @@ usr/lib/*/qt5/plugins/kontact_kmailplugin.so
 usr/lib/*/qt5/plugins/kontact_summaryplugin.so
 usr/share/akonadi/agents/
 usr/share/applications/kmail_view.desktop
-usr/share/applications/org.kde.kmail.desktop
+usr/share/applications/org.kde.kmail2.desktop
 usr/share/applications/org.kde.ktnef.desktop
 usr/share/config.kcfg/
 usr/share/dbus-1/interfaces/org.kde.kmail.kmail*.xml
@@ -58,4 +58,4 @@ usr/share/kxmlgui5/kmail2/
 usr/share/kxmlgui5/kontactsummary/kontactsummary_part.rc
 usr/share/locale/
 usr/share/messageviewer/about/default/introduction_kmail.html
-usr/share/metainfo/org.kde.kmail.appdata.xml
+usr/share/metainfo/org.kde.kmail2.appdata.xml
