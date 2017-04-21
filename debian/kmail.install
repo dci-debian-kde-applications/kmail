@@ -25,10 +25,10 @@ usr/share/doc/HTML/*/akonadi_archivemail_agent/
 usr/share/doc/HTML/*/akonadi_followupreminder_agent/
 usr/share/doc/HTML/*/akonadi_sendlater_agent/
 usr/share/doc/HTML/*/kmail2/
-usr/share/doc/HTML/en/ktnef/index.cache.bz2
-usr/share/doc/HTML/en/ktnef/index.docbook
-usr/share/doc/HTML/en/ktnef/mainwindow.png
-usr/share/doc/HTML/en/ktnef/winmail_dat.png
+usr/share/doc/HTML/*/ktnef/index.cache.bz2
+usr/share/doc/HTML/*/ktnef/index.docbook
+usr/share/doc/HTML/*/ktnef/mainwindow.png
+usr/share/doc/HTML/*/ktnef/winmail_dat.png
 usr/share/icons/breeze-dark/*/emblems/
 usr/share/icons/hicolor/*/apps/kmail.png
 usr/share/icons/hicolor/16x16/emblems/
