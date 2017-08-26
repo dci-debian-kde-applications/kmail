@@ -1,3 +1,9 @@
+kmail (4:17.08.0-1~) UNRELEASED; urgency=medium
+
+  * New upstream release (17.08.0)
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 26 Aug 2017 10:43:50 +0200
+
 kmail (4:17.08.0-0neon) xenial; urgency=medium
 
   * New release
