@@ -8,26 +8,72 @@ Uploaders: Sune Vuorela <sune@debian.org>,
            Michael Meskes <meskes@debian.org>,
            George Kiagiadakis <kiagiadakis.george@gmail.com>,
            Eshat Cakar <info@eshat.de>,
-           Maximiliano Curia <maxy@debian.org>
+           Maximiliano Curia <maxy@debian.org>,
 Build-Depends: cmake (>= 3.1~),
                debhelper (>= 9),
+               extra-cmake-modules (>= 5.35.0~),
+               libgpgmepp-dev (>= 1.8.0~),
+               libkf5akonadi-dev (>= 4:5.6.0~),
+               libkf5akonadicontact-dev (>= 4:5.6.0~),
+               libkf5akonadimime-dev (>= 4:5.6.0~),
+               libkf5akonadisearch-dev (>= 4:5.6.0~),
+               libkf5bookmarks-dev (>= 5.35.0~),
+               libkf5calendarcore-dev (>= 4:5.6.0~),
+               libkf5calendarutils-dev (>= 4:5.6.0~),
+               libkf5codecs-dev (>= 5.35.0~),
+               libkf5config-dev (>= 5.35.0~),
+               libkf5configwidgets-dev (>= 5.35.0~),
+               libkf5contacts-dev (>= 4:5.6.0~),
+               libkf5crash-dev (>= 5.35.0~),
+               libkf5dbusaddons-dev (>= 5.35.0~),
+               libkf5doctools-dev (>= 5.35.0~),
+               libkf5followupreminder-dev (>= 4:5.6.0~),
+               libkf5gravatar-dev (>= 5.6.0~),
+               libkf5guiaddons-dev (>= 5.35.0~),
+               libkf5i18n-dev (>= 5.35.0~),
+               libkf5identitymanagement-dev (>= 5.6.0~),
+               libkf5itemviews-dev (>= 5.35.0~),
+               libkf5jobwidgets-dev (>= 5.35.0~),
+               libkf5kcmutils-dev (>= 5.35.0~),
+               libkf5kdepimdbusinterfaces-dev (>= 4:5.6.0~),
+               libkf5kio-dev (>= 5.35.0~),
+               libkf5kontactinterface-dev (>= 5.6.0~),
+               libkf5ksieve-dev (>= 4:5.6.0~),
+               libkf5ldap-dev (>= 5.6.0~),
+               libkf5libkdepim-dev (>= 4:5.6.0~),
+               libkf5libkleo-dev (>= 4:5.6.0~),
+               libkf5mailcommon-dev (>= 4:5.6.0~),
+               libkf5mailtransport-dev (>= 5.6.0~),
+               libkf5messagecomposer-dev (>= 4:5.6.0~),
+               libkf5messagecore-dev (>= 4:5.6.0~),
+               libkf5messagelist-dev (>= 4:5.6.0~),
+               libkf5messageviewer-dev (>= 4:5.6.0~),
+               libkf5mime-dev (>= 5.6.0~),
+               libkf5notifications-dev (>= 5.35.0~),
+               libkf5notifyconfig-dev (>= 5.35.0~),
+               libkf5parts-dev (>= 5.35.0~),
+               libkf5pimcommon-dev (>= 4:5.6.0~),
+               libkf5pimtextedit-dev (>= 5.6.0~),
+               libkf5sendlater-dev (>= 4:5.6.0~),
+               libkf5service-dev (>= 5.35.0~),
+               libkf5sonnet-dev (>= 5.35.0~),
+               libkf5templateparser-dev (>= 4:5.6.0~),
+               libkf5textwidgets-dev (>= 5.35.0~),
+               libkf5tnef-dev (>= 4:5.6.0~),
+               libkf5webengineviewer-dev (>= 4:5.6.0~),
+               libkf5widgetsaddons-dev (>= 5.35.0~),
+               libkf5windowsystem-dev (>= 5.35.0~),
+               libkf5xmlgui-dev (>= 5.35.0~),
                pkg-config,
                pkg-kde-tools (>= 0.12),
-               qtbase5-dev (>= 5.6.0~),
+               qtbase5-dev (>= 5.7.0~),
+               qtwebengine5-dev (>= 5.7.0~),
 Standards-Version: 3.9.8
 Homepage: http://pim.kde.org/
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/kmail.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/kmail.git
 
 Package: kdepim-doc
-Section: oldlibs
-Architecture: all
-Priority: extra
-Depends: kmail, ${misc:Depends}
-Description: transitional package
- This is a transitional package. It can safely be removed.
-
-Package: ktnef
 Section: oldlibs
 Architecture: all
 Priority: extra
@@ -46,7 +92,7 @@ Depends: akonadi-server (>= 4:16.04),
          libqt5webengine5,
          ${misc:Depends},
          ${perl:Depends},
-         ${shlibs:Depends}
+         ${shlibs:Depends},
 Recommends: accountwizard,
             gnupg-agent,
             gnupg2,
@@ -55,12 +101,12 @@ Recommends: accountwizard,
             mbox-importer,
             pim-data-exporter,
             pim-sieve-editor,
-            pinentry-qt | pinentry-x11
+            pinentry-qt | pinentry-x11,
 Suggests: clamav,
           kaddressbook,
           kleopatra,
           procmail,
-          spamassassin | bogofilter | spambayes (>= 1.0.4-6) | bsfilter | crm114
+          spamassassin | bogofilter | spambayes (>= 1.0.4-6) | bsfilter | crm114,
 Breaks: kdepim-doc (<< 4:16.12.0),
         kontact (<< 4:16.11),
         ktnef (<< 4:16.12.0),
@@ -68,7 +114,7 @@ Breaks: kdepim-doc (<< 4:16.12.0),
         libkf5libkdepim5 (<= 4:16.04),
         libkf5messageviewer5 (<= 4:16.04),
         libmessageviewer4 (<< 4:4.13.90),
-        ${kde-l10n:all}
+        ${kde-l10n:all},
 Replaces: kdepim-doc (<< 4:16.12.0),
           kontact (<< 4:16.11),
           ktnef (<< 4:16.12.0),
@@ -76,10 +122,18 @@ Replaces: kdepim-doc (<< 4:16.12.0),
           libkf5libkdepim5 (<= 4:16.04),
           libkf5messageviewer5 (<= 4:16.04),
           libmessageviewer4 (<< 4:4.13.90),
-          ${kde-l10n:all}
+          ${kde-l10n:all},
 Provides: imap-client, mail-reader
 Homepage: http://kontact.kde.org/kmail/
 Description: full featured graphical email client
  KMail supports multiple accounts, mail filtering and email encryption.
  The program let you configure your workflow and it has good integration into
  KDE (Plasma Desktop) but is also useable with other Desktop Envionments.
+
+Package: ktnef
+Section: oldlibs
+Architecture: all
+Priority: extra
+Depends: kmail, ${misc:Depends}
+Description: transitional package
+ This is a transitional package. It can safely be removed.
