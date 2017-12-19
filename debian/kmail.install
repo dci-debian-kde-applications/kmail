@@ -11,7 +11,6 @@ usr/lib/*/libkmailprivate.so.5*
 usr/lib/*/qt5/plugins/kcm_kmail.so
 usr/lib/*/qt5/plugins/kcm_kmailsummary.so
 usr/lib/*/qt5/plugins/kcm_kontactsummary.so
-usr/lib/*/qt5/plugins/kcm_kpimidentities.so
 usr/lib/*/qt5/plugins/kmailpart.so
 usr/lib/*/qt5/plugins/kontact_kmailplugin.so
 usr/lib/*/qt5/plugins/kontact_summaryplugin.so
@@ -51,7 +50,6 @@ usr/share/knotifications5/akonadi_*.notifyrc
 usr/share/knotifications5/kmail2.notifyrc
 usr/share/kontact/ksettingsdialog/
 usr/share/kservices5/ServiceMenus/kmail_addattachmentservicemenu.desktop
-usr/share/kservices5/kcm_kpimidentities.desktop
 usr/share/kservices5/kcmkmailsummary.desktop
 usr/share/kservices5/kcmkontactsummary.desktop
 usr/share/kservices5/kmail_*.desktop
