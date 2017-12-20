@@ -10,6 +10,9 @@ kmail (4:17.08.3-1) UNRELEASED; urgency=medium
   * Get rid of unnessary break/replaces of kde-l10n-(ast|eo).
   * Bump debhelper build-dep and compat to 10.
 
+  [ Pino Toscano ]
+  * Remove manual libqt5webengine5 dependency.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 17 Dec 2017 11:27:46 +0100
 
 kmail (4:17.08.0-1) experimental; urgency=medium
