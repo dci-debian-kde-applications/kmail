@@ -1,4 +1,6 @@
-kmail (4:17.08.3-1) UNRELEASED; urgency=medium
+kmail (4:17.08.3-1) unstable; urgency=medium
+
+  * Team upload.
 
   [ Maximiliano Curia ]
   * New revision
@@ -16,7 +18,7 @@ kmail (4:17.08.3-1) UNRELEASED; urgency=medium
   * Switch gnupg2 recommend to gnupg, as the former is deprecated.
     (Closes: #861841)
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 17 Dec 2017 11:27:46 +0100
+ -- Sandro Knauß <hefee@debian.org>  Thu, 21 Dec 2017 17:55:51 +0100
 
 kmail (4:17.08.0-1) experimental; urgency=medium
 
