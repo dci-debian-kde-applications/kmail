@@ -12,6 +12,7 @@ kmail (4:17.08.3-2) UNRELEASED; urgency=medium
   * Do not set Pririty: extra for the transitional packages.
   * Slightly improve the descriptions of the transitional packages.
   * Remove unused ${perl:Depends} substvar from kmail.
+  * Update lintian overrides.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 26 Dec 2017 09:58:05 +0100
 
