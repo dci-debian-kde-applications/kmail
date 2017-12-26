@@ -75,7 +75,6 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/kmail.git
 Package: kdepim-doc
 Section: oldlibs
 Architecture: all
-Priority: extra
 Depends: kmail, ${misc:Depends}
 Description: transitional package
  This is a transitional package. It can safely be removed.
@@ -126,7 +125,6 @@ Description: full featured graphical email client
 Package: ktnef
 Section: oldlibs
 Architecture: all
-Priority: extra
 Depends: kmail, ${misc:Depends}
 Description: transitional package
  This is a transitional package. It can safely be removed.
