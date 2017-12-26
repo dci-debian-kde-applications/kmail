@@ -76,8 +76,10 @@ Package: kdepim-doc
 Section: oldlibs
 Architecture: all
 Depends: kmail, ${misc:Depends}
-Description: transitional package
- This is a transitional package. It can safely be removed.
+Description: transitional package for kmail
+ This is a transitional package, to migrate kdepim-doc to kmail.
+ .
+ It can safely be removed after the upgrade.
 
 Package: kmail
 Section: mail
@@ -126,5 +128,7 @@ Package: ktnef
 Section: oldlibs
 Architecture: all
 Depends: kmail, ${misc:Depends}
-Description: transitional package
- This is a transitional package. It can safely be removed.
+Description: transitional package for kmail
+ This is a transitional package, to migrate ktnef to kmail.
+ .
+ It can safely be removed after the upgrade.
