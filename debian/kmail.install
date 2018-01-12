@@ -57,6 +57,11 @@ usr/share/kservices5/kcmkontactsummary.desktop
 usr/share/kservices5/kmail_*.desktop
 usr/share/kservices5/kontact/
 usr/share/kservicetypes5/dbusmail.desktop
+usr/share/kxmlgui5/kmail2/kmail_part.rc
+usr/share/kxmlgui5/kmail2/kmcomposerui.rc
+usr/share/kxmlgui5/kmail2/kmmainwin.rc
+usr/share/kxmlgui5/kmail2/kmreadermainwin.rc
 usr/share/kxmlgui5/kontactsummary/kontactsummary_part.rc
 usr/share/locale/
+usr/share/messageviewer/about/default/introduction_kmail.html
 usr/share/metainfo/org.kde.kmail2.appdata.xml
